@@ -1,0 +1,30 @@
+/*Odiljonova Khilola*/
+body{
+	background-color: #87ceeb;
+	text-align: left;
+}
+#outerwrapper{
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+.float-left{
+	float: left;
+	margin-right: 3%;
+}
+.myname{
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 2em;
+}
+#main{
+	background-color: #00bfff;
+	padding:8%;
+	margin-right:3%;
+	text-align: left;
+}
+.float-right{
+	float:right;
+}
+#main, footer{
+	clear: both;
+}

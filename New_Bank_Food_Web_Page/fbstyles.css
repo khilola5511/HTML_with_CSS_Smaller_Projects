@@ -1,0 +1,47 @@
+/*Odiljonova Khilola*/
+/*Style to create a fluid image*/
+body{
+	background-color: #FFFFFF;
+}
+img{
+	max-width:80%;
+}
+#container{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	font-family: Verdana, Arial, serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	background-color:#FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+nav ul{
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+nav li{
+	background-color: #FF6600;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+	text-align: center;
+}
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.mobile{
+	display: inline;
+}
+
+hr{
+	height: 4px;
+	border-width:0;
+	background-color: #FF6600;
+}

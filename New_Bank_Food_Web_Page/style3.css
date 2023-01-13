@@ -1,0 +1,216 @@
+/*Odiljonova date is*/
+/*Style for body a background-color*/
+body{
+	background-color:#FFFFFF;
+}
+img{
+	max-width: 100%;
+}
+/*Styles for Mobile Layout*/
+#container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Style for the header */
+header{
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+nav{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+nav ul{
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+nav li{
+	background-color: #ff6600;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+nav li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+main{
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	border-top: solid 0.2em #ff6600;
+	border-bottom: solid 0.2em #ff6600;
+}
+footer{
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+.mobile{
+	display: inline;
+}
+div p{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+section{
+	padding: 1%;
+	text-align: center;
+}
+article{
+	border-top: solid 0.2em #ff6600;
+	padding: 2%;
+	margin: 0.5%;
+	text-align: left;
+}
+aside{
+	text-align: center;
+	color: #ffffff;
+	background-color: #ff6600;
+	font-size: 1.25em;
+	margin: 1em;
+	padding: 1em;
+}
+input, textarea{
+	display: block;
+	margin-bottom: 1em;
+}
+label{
+	display: block;
+}
+h2, h3{
+	text-align: center;
+}
+/*Media query for Tablet Viewport*/
+@media only screen and (min-width: 481px){
+
+	img{
+		float: left;
+		width: 25%;
+	}
+	header p{
+		margin-bottom: 4em;
+		padding-top: 1.5em;
+	}
+	nav li {
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 23%;
+	}
+	main {
+		clear: left;
+		margin-top:12em;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+	section{
+		background-color: #ff6600;
+	}
+	article{
+		background-color:#ffffff;
+		border-top: 0;
+		border-radius: 0 3em 3em 3em;
+		margin-bottom: 1em;
+	}
+	aside{
+		text-align: center;
+		color: #ff6600;
+		background-color: #ffffff;
+		box-shadow: 1em 1em 1em #000000;
+		border-radius: 8em;
+	}
+	table, th, td{
+		border: solid 0.1em #ff6600;
+		border-collapse: collapse;
+		padding: 1em;
+	}
+	caption{
+		font-size: 1.5em;
+		padding-bottom: 1em;
+	}
+	label{
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 8em;
+	}
+}
+/*Media query for desktop viewport targets screens with a minimum of 769px*/
+@media only screen and (min-width: 769px){
+	#container{
+		width: 80%;
+	}
+	nav{
+		margin-top: -5em;
+	}
+	nav ul{
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+	}
+	nav li{
+		background-color: #ffffff;
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 18%;
+	}
+	nav li a{
+		color: #ff6600;
+		display: inline-block;
+		padding: 0.7em;
+		font-size: 1.25em;
+	}
+	nav li a:link{
+		color: #ff6600;
+	}
+	nav li a:hover{
+		color: #4C1F00;
+		font-style: italic;
+	}
+	main{
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+		overflow: auto;
+	}
+	section{
+		float: left;
+		width: 60%;
+		background-color: #ff6600;
+	}
+	aside{
+		float: right;
+		width: 25%;
+		background-color: #ff6600;
+		color: #ffffff;
+	}
+	table{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+		background-color: #ffffff;
+	}
+}

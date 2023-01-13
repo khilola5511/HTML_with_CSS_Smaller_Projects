@@ -1,0 +1,27 @@
+/*Odiljonova Khilola*/
+body{
+	background-color: #FF9900;
+	text-align: left-side;
+}
+#wrapper{
+	max-width: 45%;
+	padding-left: 100px;
+}
+.floatleft{
+	float: left;
+	margin-right: 2%;
+}
+.floatright{
+	float: right;
+	margin-left: 2%;
+	padding-left: 20px;
+}
+nav ul {
+	list-style-type: none;
+}
+.boldtext{
+	font-weight: bold;
+}
+.boldtext, dt{
+	font-weight: bold;
+}
